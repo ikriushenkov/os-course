@@ -8,6 +8,3 @@ let ans=ans\+a
 done
 echo $ans
 
-find /var/log/ -name '*.log' -type f -print0 2>/dev/null | xargs -0 cat 2>/dev/null | wc -l
-
-
